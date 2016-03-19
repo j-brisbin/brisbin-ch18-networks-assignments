@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Joel Brisbin Chapter 18 Networks Programming Assignments</title>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800' rel='stylesheet' type='text/css'>
+    <link href="css/mainStyles.css" rel="stylesheet" type="text/css" />
+    <script src="js/mainScripts.js" type="text/javascript"></script>
+</head>
+<body>
+<h1>Joel Brisbin Chapter 18 Networks Programming Assignments</h1>
+
+<section id="content">
+    <form id="assignmentForm">
+        <label for="addressInput1">Type in the first number of your IP Address: </label>
+        <input type="text" id="addressInput1" name="addressInput1" />
+        <br />
+        <label for="addressInput2">Type in the second number of your IP Address: </label>
+        <input type="text" id="addressInput2" name="addressInput2" />
+        <br />
+        <label for="addressInput3">Type in the third number of your IP Address: </label>
+        <input type="text" id="addressInput3" name="addressInput3" />
+        <br />
+        <label for="addressInput4">Type in the fourth number of your IP Address: </label>
+        <input type="text" id="addressInput4" name="addressInput4" />
+        <br />
+        <label for="inputNotation">Select the Notation You're Inputting</label>
+        <select id="inputNotation">
+            <option>Binary Notation</option>
+            <option>Decimal Notation</option>
+            <option>Hexadecimal Notation</option>
+        </select>
+        <br />
+        <label for="outputNotation">Select the Notation You're Outputting</label>
+        <select id="outputNotation">
+            <option>Binary Notation</option>
+            <option>Decimal Notation</option>
+            <option>Hexadecimal Notation</option>
+        </select>
+        <br />
+        <input type="button" id="convertButton" name="convertButton" value="Convert"/>
+        <br />
+        <label for="prefixLength">Enter The Prefix Length: </label>
+        <input type="number" id="prefixLength" name="prefixLength" value="0" />
+        <br />
+        <input type="button" id="findButton" name="findButton" value="Find First and Last Addresses"/>
+    </form>
+
+    <div id="convertNotationsResult">
+    </div>
+
+    <div id="firstLastAddressResult">
+        <p id="firstAddressResult">First Address: </p>
+        <p id="lastAddressResult">Last Address: </p>
+    </div>
+</section>
+
+</body>
+</html>
